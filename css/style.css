@@ -1,0 +1,37 @@
+div {
+	border: 1px solid black;
+}
+
+div[class*="wrapper"] { /* ///// selects all classes containing 'wrapper' ///// */
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	background-color: #FFF;
+}
+.wrapper_head {
+	width: 100%;
+	height: 10em;
+}
+
+#logo {
+	float: left;
+	margin-top: 1em;
+}
+
+#nav_bar {
+	float: right;
+	font-family: "Source Sans Pro", serif;
+	font-weight: 700;
+	margin-top: 4em;
+}
+#nav_bar a {
+	margin-right: 8em;
+	text-decoration: none;
+	color: rgb(39,67,71);
+}
+#nav_bar a.last { /* ///// selects last a element ///// */
+	margin-right: 0
+}
