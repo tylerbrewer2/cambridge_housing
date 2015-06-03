@@ -36,6 +36,7 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 30em;
+	background-size: cover;
 }
 
 #banner_index h1 {
@@ -54,37 +55,40 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 30em;
+	background-size: cover;
 }
 
-#about .wrapper_about, #mission .wrapper_mission {
+#banner_contact {
+	width: 100%;
+	background-image: url(../images/contact_banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 30em;
+	background-size: cover;
+}
+
+#about .wrapper_about, #mission .wrapper_mission, #contact-info .wrapper_contact {
 	text-align: center;
 	width: 70%;
 	margin-top: 6em;
 	color: #264348;
 }
-.wrapper_about h1, .wrapper_mission h1 {
+.wrapper_about h1, .wrapper_mission h1, .wrapper_contact h1 {
 	margin-top: 0;
 	font-family: "Source Sans Pro", sans-serif;
-	font-size: 3em;
+	font-size: 48px;
 	font-weight: 700;
 	letter-spacing: .1em;
 }
 
-.wrapper_about p {
+.wrapper_about p, .wrapper_mission p, .wrapper_contact p {
 	font-family: "Source Sans Pro", sans-serif;
 	font-weight: 300;
 	font-size: 1.5em;
 	line-height: 2em
 }
 
-.wrapper_mission {
-	font-family: "Source Sans Pro", sans-serif;
-	font-weight: 300;
-	font-size: 1.2em;
-	line-height: 2em
-}
-
-.wrapper_about button {
+.wrapper_about button, #contact_form button#submit {
   -webkit-border-radius: 11;
   -moz-border-radius: 11;
   border-radius: 11px;
@@ -100,7 +104,7 @@ header {
   transition: background .25s ease;
 }
 
-.wrapper_about button:hover {
+.wrapper_about button:hover, #contact_form button#submit:hover {
 	background: #367588;
 }
 
@@ -121,6 +125,41 @@ header {
 
 .three-images:hover {
 	opacity: .5
+}
+
+body .wrapper_form {
+	margin-top: 8em;
+}
+
+#contact_form {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#contact_form h3 {
+	text-align: left;
+	font-family: "Source Sans Pro", sans-serif;
+	margin: 1.5em 0 0.3em 0;
+	color: #264348; 
+}
+
+#contact_form input, #contact_form textarea {
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	width: 100%;
+	clear: both;
+	resize: none;
+	background-color: #DDD;
+	border: none;
+	padding: .75em .5em;
+	color: #777
+}
+
+
+#contact_form button#submit {
+	margin-top: 1em;
 }
 
 footer .wrapper_footer {
