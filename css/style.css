@@ -1,7 +1,6 @@
 div {
 	border: 1px solid black;
 }
-
 div[class*="wrapper"] { /* ///// selects all classes containing 'wrapper' ///// */
 	width: 80%;
 	margin: 0 auto;
@@ -9,7 +8,6 @@ div[class*="wrapper"] { /* ///// selects all classes containing 'wrapper' ///// 
 
 header {
 	width: 100%;
-	background-color: #FFF;
 }
 .wrapper_head {
 	width: 100%;
@@ -34,4 +32,21 @@ header {
 }
 #nav_bar a.last { /* ///// selects last a element ///// */
 	margin-right: 0
+}
+#banner {
+	width: 100%;
+	background-image: url(../images/map.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 30em;
+}
+
+#banner h1 {
+	margin-top: 0;
+	padding-top: 3em;
+	font-family: "Source Sans Pro", serif;
+	font-weight: 900;
+	color: white;
+	text-shadow: 3px 3px 10px #000;
+	font-size: 3em
 }
