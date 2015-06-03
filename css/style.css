@@ -67,13 +67,22 @@ header {
 	background-size: cover;
 }
 
-#about .wrapper_about, #mission .wrapper_mission, #contact-info .wrapper_contact {
+#banner_house {
+	width: 100%;
+	background-image: url(../images/housing_banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 30em;
+	background-size: cover;
+}
+
+#about .wrapper_about, #mission .wrapper_mission, #contact-info .wrapper_contact, #house_name .wrapper_house {
 	text-align: center;
 	width: 70%;
 	margin-top: 6em;
 	color: #264348;
 }
-.wrapper_about h1, .wrapper_mission h1, .wrapper_contact h1 {
+.wrapper_about h1, .wrapper_mission h1, .wrapper_contact h1, .wrapper_house h1 {
 	margin-top: 0;
 	font-family: "Source Sans Pro", sans-serif;
 	font-size: 48px;
@@ -81,14 +90,14 @@ header {
 	letter-spacing: .1em;
 }
 
-.wrapper_about p, .wrapper_mission p, .wrapper_contact p {
+.wrapper_about p, .wrapper_mission p, .wrapper_contact p, .wrapper_house p {
 	font-family: "Source Sans Pro", sans-serif;
 	font-weight: 300;
 	font-size: 1.5em;
 	line-height: 2em
 }
 
-.wrapper_about button, #contact_form button#submit {
+.wrapper_about button, #contact_form button#submit, .wrapper_house button {
   -webkit-border-radius: 11;
   -moz-border-radius: 11;
   border-radius: 11px;
@@ -161,6 +170,8 @@ body .wrapper_form {
 #contact_form button#submit {
 	margin-top: 1em;
 }
+
+
 
 footer .wrapper_footer {
 	margin-top: 6em;
