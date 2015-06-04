@@ -76,7 +76,7 @@ header {
 	background-size: cover;
 }
 
-#about .wrapper_about, #mission .wrapper_mission, #contact-info .wrapper_contact, #house_name .wrapper_house, #house_perks .wrapper_perks {
+#about .wrapper_about, #mission .wrapper_mission, #contact-info .wrapper_contact, #house_info .wrapper_house, #house_perks .wrapper_perks {
 	text-align: center;
 	width: 70%;
 	margin-top: 6em;
@@ -113,7 +113,7 @@ header {
   transition: background .25s ease;
 }
 
-.wrapper_about button:hover, #contact_form button#submit:hover {
+.wrapper_about button:hover, #contact_form button#submit:hover, .wrapper_house button:hover {
 	background: #367588;
 }
 
@@ -173,7 +173,8 @@ body .wrapper_form {
 
 div[class*="3-column"] {
 	display: inline-block;
-	width: 30%;
+	width: 25%;
+	margin: 0 2%;
 }
 
 div[class*="3-column"] ul {
@@ -181,6 +182,10 @@ div[class*="3-column"] ul {
 }
 
 div[class*="3-column"] ul li {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1.25em;
+	font-weight: 400;
+	padding: .4em 0; 
 	text-align: center;
 	list-style-type: none;
 }
