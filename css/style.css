@@ -201,6 +201,7 @@ footer .wrapper_footer {
     padding-top: 4.5em; }
 
 @media screen and (max-width: 940px) {
+  /* ///// Tablet ///// */
   div[class*="wrapper"] {
     width: 90%; }
 
@@ -246,13 +247,27 @@ footer .wrapper_footer {
       width: 0;
       height: 0; }
 
+  body .wrapper_form {
+    margin-top: 1em; }
+
+  #contact_form {
+    width: 80%; }
+    #contact_form h3 {
+      margin: 1em 0 0.1em 0;
+      color: #274347; }
+    #contact_form input {
+      font-size: 1em;
+      padding: .5em .5em; }
+    #contact_form textarea {
+      font-size: 1em;
+      padding: .5em .5em; }
+
   #about .wrapper_about, #mission .wrapper_mission, #contact-info .wrapper_contact, #house_info .wrapper_house, #house_perks .wrapper_perks {
     margin-top: 3em;
     color: #274347;
     width: 90%; }
 
   .wrapper_about p, .wrapper_mission p, .wrapper_contact p, .wrapper_house p {
-    font-weight: 300;
     font-size: 1.3em;
     line-height: 1.7em; }
 
@@ -274,5 +289,102 @@ footer .wrapper_footer {
     height: 5em; }
     footer .wrapper_footer p {
       padding-top: 2em; } }
+@media screen and (max-width: 600px) {
+  /* ///// Mobile /////*/
+  .wrapper_head {
+    height: 12em; }
+    .wrapper_head img {
+      width: 16em; }
+
+  #logo {
+    float: none;
+    text-align: center;
+    margin-top: .5em; }
+
+  #nav_bar {
+    float: none;
+    margin-top: 0;
+    margin-bottom: 2em; }
+    #nav_bar a {
+      margin-top: .4em;
+      padding: .25em 0; }
+
+  #banner_house {
+    height: 12em;
+    margin-top: 1em; }
+
+  #banner_contact {
+    height: 12em;
+    margin-top: 1em; }
+
+  #banner_mission {
+    height: 12em;
+    margin-top: 1em; }
+
+  #banner_index {
+    height: 12em;
+    margin-top: 1em; }
+
+  #contact_form {
+    width: 90%; }
+    #contact_form h3 {
+      font-size: 1em;
+      margin: .7em 0 0.1em 0;
+      color: #274347; }
+    #contact_form input {
+      font-size: .8em;
+      padding: .5em .5em; }
+    #contact_form textarea {
+      font-size: .8em;
+      padding: .5em .5em; }
+
+  #about .wrapper_about, #mission .wrapper_mission, #contact-info .wrapper_contact, #house_info .wrapper_house, #house_perks .wrapper_perks {
+    margin-top: 2em;
+    width: 90%; }
+
+  .wrapper_about h1, .wrapper_mission h1, .wrapper_contact h1 {
+    font-size: 2em;
+    margin-bottom: .2em; }
+
+  .wrapper_about p, .wrapper_mission p, .wrapper_contact p, .wrapper_house p {
+    font-size: 1em;
+    line-height: 1.7em;
+    margin-top: 0; }
+
+  #image_links {
+    margin-top: 2em; }
+
+  .three-images {
+    height: 130px;
+    margin: 0 1% 0 1%; }
+    .three-images .overlay {
+      height: 130px; }
+      .three-images .overlay p {
+        padding-top: 56px;
+        font-size: 1em; }
+
+  #house_perks .wrapper_perks {
+    width: 100%; }
+
+  div[class*="3-column"] {
+    width: 24%;
+    display: inline-block;
+    margin: 0 auto;
+    box-shadow: none; }
+    div[class*="3-column"] img {
+      width: 50%; }
+    div[class*="3-column"]:hover {
+      transform: none; }
+    div[class*="3-column"] ul li {
+      font-size: .6em;
+      padding: .1em 0; }
+
+  footer .wrapper_footer {
+    width: 100%;
+    margin-top: 1em;
+    height: 3em; }
+    footer .wrapper_footer p {
+      padding-top: 1.5em;
+      font-size: .7em; } }
 
 /*# sourceMappingURL=style.css.map */
