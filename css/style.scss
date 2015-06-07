@@ -194,6 +194,13 @@ div[class*="3-column"] {
 	display: inline-block;
 	width: 25%;
 	margin: 0 2%;
+	background-color: lighten(Lightgrey, 10%);
+	padding: 1em;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+	transition: all .5s ease;
+	&:hover {
+		transform: translateY(-25px);
+	}
 }
 
 div[class*="3-column"] ul {
