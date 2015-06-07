@@ -225,3 +225,123 @@ footer {
 		}
 	}
 }
+
+@media screen and (max-width: 940px) {
+	div[class*="wrapper"] {
+		width: 90%;
+	}
+	.wrapper_head {
+		height: 17em;
+	}
+	#logo {
+		float: none;
+		text-align: center;
+	}
+	#nav_bar {
+		float: none;
+		margin-top: 1em;
+		margin-bottom: 2em;
+		a {
+			margin-top: .4em;
+			margin-right: 0;
+			padding: .5em 0;
+			display: block;
+			text-align: center;
+			background-color: rgba($alt-color, .9);
+			color: white;
+			&:hover {
+				color: $main-color;
+			};
+		}
+	}
+	#banner_house {
+		height: 20em;
+		margin-top: 1em;
+	}
+	#banner_contact {
+		height: 20em;
+		margin-top: 1em;
+	}
+	#banner_mission {
+		height: 20em;
+		margin-top: 1em;
+	}
+	#banner_index {
+		height: 20em;
+		margin-top: 1em;
+		h1 {
+			opacity: 0;
+			width: 0;
+			height: 0;
+		}
+	}
+	#about .wrapper_about, #mission .wrapper_mission, #contact-info .wrapper_contact, #house_info .wrapper_house, #house_perks .wrapper_perks {
+		margin-top: 3em;
+		color: $main-color;
+		width: 90%;
+	}
+	.wrapper_about p, .wrapper_mission p, .wrapper_contact p, .wrapper_house p {
+		font-weight: 300;
+		font-size: 1.3em;
+		line-height: 1.7em
+	}
+	.three-images {
+		.overlay {
+			opacity: .9;
+		}
+	}
+	#image_links {
+		margin-top: 3em;
+	}
+	.wrapper_about button, #contact_form button#submit, .wrapper_house button {
+
+	  border-radius: 9px;
+	  font-size: .9em;
+	  padding: 7px 27px 7px 27px;
+	  letter-spacing: .1em;
+	}
+
+
+
+
+
+
+
+
+
+
+	footer .wrapper_footer {
+		width: 100%;
+		margin-top: 3em;
+		height: 5em;
+		p {
+			padding-top: 2em;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
