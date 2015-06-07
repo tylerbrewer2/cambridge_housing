@@ -109,7 +109,7 @@ body {
   -webkit-border-radius: 11;
   -moz-border-radius: 11;
   border-radius: 11px;
-  color: #ffffff;
+  color: #fff;
   font-size: 1.2em;
   background: $main-color;
   padding: 10px 30px 10px 30px;
@@ -117,11 +117,11 @@ body {
   border: none;
   font-weight: 400;
   letter-spacing: .2em;
-  transition: background .25s ease;
-}
-
-.wrapper_about button:hover, #contact_form button#submit:hover, .wrapper_house button:hover {
+  transition: all .25s ease;
+  &:hover {
 	background: $alt-color;
+	transform: scale(1.1);
+	}
 }
 
 #image_links {
@@ -130,9 +130,6 @@ body {
 
 .wrapper_images {
 	text-align: center;
-	a {
-		text-indent: -99999;
-	}
 }
 
 .three-images {
@@ -201,19 +198,18 @@ div[class*="3-column"] {
 	&:hover {
 		transform: translateY(-25px);
 	}
+	ul {
+		padding-left: 0;
+		li {
+			font-size: 1.25em;
+			font-weight: 400;
+			padding: .4em 0; 
+			text-align: center;
+			list-style-type: none;
+		}	
+	}
 }
 
-div[class*="3-column"] ul {
-	padding-left: 0;
-}
-
-div[class*="3-column"] ul li {
-	font-size: 1.25em;
-	font-weight: 400;
-	padding: .4em 0; 
-	text-align: center;
-	list-style-type: none;
-}
 footer {
 	.wrapper_footer {
 		margin-top: 6em;
